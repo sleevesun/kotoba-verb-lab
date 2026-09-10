@@ -1,0 +1,33 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover,interactive-widget=resizes-content">
+<meta name="theme-color" content="#f6f8fc">
+<meta name="description" content="用中文交互学习日语动词：一二三类、自动词他动词、26种常用及进阶词形，支持即时练习和本地错题复习。">
+<title>ことば · 日语动词实验室</title>
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='18' fill='%233675e8'/%3E%3Ctext x='32' y='45' font-size='42' fill='white' text-anchor='middle'%3Eこ%3C/text%3E%3C/svg%3E">
+<link rel="stylesheet" href="app.css">
+</head>
+<body>
+<a class="skip" href="#main-content">跳到主要内容</a>
+<aside class="sidebar" aria-label="学习导航">
+<a href="#home" class="brand"><span class="brand-mark jp" lang="ja">こ</span><span><span class="brand-name" lang="ja">ことば</span><br><span class="brand-sub">JAPANESE VERBS</span></span></a>
+<div class="side-caption">YOUR LEARNING SPACE</div><nav class="side-nav" id="side-nav"></nav>
+<div class="side-study"><div class="eyebrow">ONE SMALL STEP</div><h4>把规则，变成直觉。</h4><div class="between small muted" style="margin-bottom:9px"><span>已探索单元</span><span id="read-count">0 / 3</span></div><div class="progress-track"><div class="progress-fill" id="read-progress" style="width:0%"></div></div><p class="small muted" style="font-size:10px;margin-top:12px">每天练一点，也是一种前进。</p></div>
+<div class="side-storage" id="storage-state"><span class="dot"></span>学习记录仅保存在此浏览器</div>
+</aside>
+<div class="shell">
+<header class="m-topbar" id="mobile-topbar" aria-label="页面导航"></header>
+<header class="topbar"><div class="breadcrumb"><span>我的日语学习</span><span aria-hidden="true">/</span><span id="crumb-current">学习地图</span></div><a href="#home" class="mobile-brand brand"><span class="brand-mark jp" lang="ja">こ</span><strong>动词实验室</strong></a><div class="top-actions"><button class="btn roman-toggle" id="roman-toggle" aria-pressed="true" aria-label="显示或隐藏罗马字">罗马字<span class="toggle-indicator" aria-hidden="true"></span></button><button class="icon-btn" data-action="sources" aria-label="学习说明、参考资料与数据设置" title="说明与参考资料" id="about-button"></button></div></header>
+<main class="main" id="main-content" tabindex="-1"></main>
+</div>
+<nav class="bottom-nav" id="bottom-nav" aria-label="移动端学习导航"></nav>
+<div class="m-dock" id="mobile-dock" aria-label="当前操作"></div>
+<dialog class="m-sheet" id="mobile-sheet" aria-labelledby="mobile-sheet-title"></dialog>
+<div id="modal-root"></div><div id="toast-root" role="status" aria-live="polite"></div>
+<noscript><div style="padding:30px;margin:30px;background:white;border:1px solid #dde5ee;border-radius:15px">这个互动网页需要启用 JavaScript。请保存 HTML 后在 Safari、Chrome 或 Edge 中打开；某些应用的文件预览器不会执行脚本。</div></noscript>
+<script src="app1.js"></script>
+<script src="app2.js"></script>
+<script src="app3.js"></script>
+</body></html>
